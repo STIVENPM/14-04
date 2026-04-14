@@ -1,0 +1,8 @@
+# Requires a local Liquibase installation with the PostgreSQL JDBC driver available.
+changeLogFile=changelog-master.yaml
+
+url=jdbc:postgresql://localhost:5437/midb2
+username=usuario2
+password=password2
+
+driver=org.postgresql.Driver
